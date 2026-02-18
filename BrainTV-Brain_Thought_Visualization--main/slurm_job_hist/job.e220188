@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/scratch/three-minds/workstation/lab/LatestBrain-TV/code/stageA1_mbm_pretrain.py", line 268, in <module>
+    main(config)
+  File "/scratch/three-minds/workstation/lab/LatestBrain-TV/code/stageA1_mbm_pretrain.py", line 126, in main
+    torch.distributed.init_process_group(backend='nccl')
+  File "/scratch/three-minds/workstation/pythonenvs/env1-python37/env1-lbtv/lib/python3.7/site-packages/torch/distributed/distributed_c10d.py", line 627, in init_process_group
+    _store_based_barrier(rank, store, timeout)
+  File "/scratch/three-minds/workstation/pythonenvs/env1-python37/env1-lbtv/lib/python3.7/site-packages/torch/distributed/distributed_c10d.py", line 258, in _store_based_barrier
+    rank, store_key, world_size, worker_count, timeout
+RuntimeError: Timed out initializing process group in store based barrier on rank: 0, for key: store_based_barrier_key:1 (world_size=2, worker_count=1, timeout=0:30:00)

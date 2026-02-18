@@ -1,0 +1,121 @@
+gpu015:13230:13230 [0] NCCL INFO Bootstrap : Using ib0:172.20.3.75<0>
+gpu015:13230:13230 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+gpu015:13230:13230 [0] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB ; OOB ib0:172.20.3.75<0>
+gpu015:13230:13230 [0] NCCL INFO Using network IB
+NCCL version 2.10.3+cuda10.2
+gpu015:13230:13310 [0] NCCL INFO Channel 00/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 01/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 02/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 03/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 04/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 05/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 06/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 07/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 08/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 09/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 10/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 11/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 12/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 13/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 14/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 15/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 16/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 17/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 18/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 19/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 20/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 21/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 22/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 23/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 24/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 25/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 26/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 27/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 28/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 29/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 30/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Channel 31/32 :    0
+gpu015:13230:13310 [0] NCCL INFO Trees [0] -1/-1/-1->0->-1 [1] -1/-1/-1->0->-1 [2] -1/-1/-1->0->-1 [3] -1/-1/-1->0->-1 [4] -1/-1/-1->0->-1 [5] -1/-1/-1->0->-1 [6] -1/-1/-1->0->-1 [7] -1/-1/-1->0->-1 [8] -1/-1/-1->0->-1 [9] -1/-1/-1->0->-1 [10] -1/-1/-1->0->-1 [11] -1/-1/-1->0->-1 [12] -1/-1/-1->0->-1 [13] -1/-1/-1->0->-1 [14] -1/-1/-1->0->-1 [15] -1/-1/-1->0->-1 [16] -1/-1/-1->0->-1 [17] -1/-1/-1->0->-1 [18] -1/-1/-1->0->-1 [19] -1/-1/-1->0->-1 [20] -1/-1/-1->0->-1 [21] -1/-1/-1->0->-1 [22] -1/-1/-1->0->-1 [23] -1/-1/-1->0->-1 [24] -1/-1/-1->0->-1 [25] -1/-1/-1->0->-1 [26] -1/-1/-1->0->-1 [27] -1/-1/-1->0->-1 [28] -1/-1/-1->0->-1 [29] -1/-1/-1->0->-1 [30] -1/-1/-1->0->-1 [31] -1/-1/-1->0->-1
+gpu015:13230:13310 [0] NCCL INFO Setting affinity for GPU 0 to 0100,00000001
+gpu015:13230:13310 [0] NCCL INFO Connected all rings
+gpu015:13230:13310 [0] NCCL INFO Connected all trees
+gpu015:13230:13310 [0] NCCL INFO 32 coll channels, 32 p2p channels, 32 p2p channels per peer
+gpu015:13230:13310 [0] NCCL INFO comm 0x7fb8740010c0 rank 0 nranks 1 cudaDev 0 busId 61000 - Init COMPLETE
+config variable type: <class 'config.Config_MBM_fMRI'>
+Number of cuda devices per node: 2
+{'lr': 0.00025, 'min_lr': 0.0, 'weight_decay': 0.05, 'num_epoch': 50, 'warmup_epochs': 40, 'batch_size': 100, 'clip_grad': 0.8, 'mask_ratio': 0.75, 'patch_size': 16, 'embed_dim': 1024, 'decoder_embed_dim': 512, 'depth': 24, 'num_heads': 16, 'decoder_num_heads': 16, 'mlp_ratio': 1.0, 'root_path': '/scratch/three-minds/workstation/lab/LatestBrain-TV/', 'output_path': '/scratch/three-minds/workstation/lab/LatestBrain-TV/results/fmri_pretrain/17-10-2023-06-41-19', 'seed': 2022, 'roi': 'VC', 'aug_times': 1, 'num_sub_limit': None, 'include_hcp': True, 'include_kam': False, 'accum_iter': 1, 'use_nature_img_loss': False, 'img_recon_weight': 0.5, 'focus_range': None, 'focus_rate': 0.6, 'local_rank': 0}
+Dataset size: 120
+Number of voxels: 2848
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.95)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    lr: 0.00025
+    maximize: False
+    weight_decay: 0.0
+
+Parameter Group 1
+    amsgrad: False
+    betas: (0.9, 0.95)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    lr: 0.00025
+    maximize: False
+    weight_decay: 0.05
+)
+Start Training the fmri MAE ... ...
+[Epoch 0] loss: 3.204423427581787
+[Epoch 1] loss: 2.1488476991653442
+[Epoch 2] loss: 1.3667665719985962
+[Epoch 3] loss: 1.4174093008041382
+[Epoch 4] loss: 1.1889967918395996
+[Epoch 5] loss: 1.1717151403427124
+[Epoch 6] loss: 1.1963172554969788
+[Epoch 7] loss: 1.159716010093689
+[Epoch 8] loss: 1.0710000395774841
+[Epoch 9] loss: 1.0453193187713623
+[Epoch 10] loss: 1.012409269809723
+[Epoch 11] loss: 0.9631200134754181
+[Epoch 12] loss: 0.9293080866336823
+[Epoch 13] loss: 0.9347051084041595
+[Epoch 14] loss: 0.9718376994132996
+[Epoch 15] loss: 1.0022982954978943
+[Epoch 16] loss: 0.9448522925376892
+[Epoch 17] loss: 1.0062901377677917
+[Epoch 18] loss: 0.9734742045402527
+[Epoch 19] loss: 0.9401049315929413
+[Epoch 20] loss: 1.0110621750354767
+[Epoch 21] loss: 0.8599122166633606
+[Epoch 22] loss: 0.9076857566833496
+[Epoch 23] loss: 0.9229544997215271
+[Epoch 24] loss: 0.890466570854187
+[Epoch 25] loss: 0.8715129196643829
+[Epoch 26] loss: 0.8772013187408447
+[Epoch 27] loss: 0.9024163782596588
+[Epoch 28] loss: 0.8228420615196228
+[Epoch 29] loss: 0.8809812068939209
+[Epoch 30] loss: 0.8895408809185028
+[Epoch 31] loss: 0.8951693475246429
+[Epoch 32] loss: 0.8447307050228119
+[Epoch 33] loss: 0.9771134853363037
+[Epoch 34] loss: 0.9417271018028259
+[Epoch 35] loss: 0.9264056980609894
+[Epoch 36] loss: 0.9465087950229645
+[Epoch 37] loss: 0.8972521424293518
+[Epoch 38] loss: 0.9443288743495941
+[Epoch 39] loss: 1.0848213732242584
+[Epoch 40] loss: 0.9798678159713745
+[Epoch 41] loss: 0.8835348784923553
+[Epoch 42] loss: 0.8786250948905945
+[Epoch 43] loss: 0.889540046453476
+[Epoch 44] loss: 0.9326812624931335
+[Epoch 45] loss: 0.9027065634727478
+[Epoch 46] loss: 0.8874471485614777
+[Epoch 47] loss: 0.8320663869380951
+[Epoch 48] loss: 0.8866091072559357
+[Epoch 49] loss: 0.833954244852066
+Training time 0:00:50

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/scratch/three-minds/workstation/lab/LatestBrain-TV/code/stageA1_mbm_pretrain.py", line 268, in <module>
+    main(config)
+  File "/scratch/three-minds/workstation/lab/LatestBrain-TV/code/stageA1_mbm_pretrain.py", line 126, in main
+    torch.distributed.init_process_group(backend='nccl')
+  File "/scratch/three-minds/workstation/pythonenvs/env1-python37/env1-lbtv/lib/python3.7/site-packages/torch/distributed/distributed_c10d.py", line 595, in init_process_group
+    store, rank, world_size = next(rendezvous_iterator)
+  File "/scratch/three-minds/workstation/pythonenvs/env1-python37/env1-lbtv/lib/python3.7/site-packages/torch/distributed/rendezvous.py", line 254, in _env_rendezvous_handler
+    master_addr = _get_env_or_raise("MASTER_ADDR")
+  File "/scratch/three-minds/workstation/pythonenvs/env1-python37/env1-lbtv/lib/python3.7/site-packages/torch/distributed/rendezvous.py", line 232, in _get_env_or_raise
+    raise _env_error(env_var)
+ValueError: Error initializing torch.distributed using env:// rendezvous: environment variable MASTER_ADDR expected, but not set

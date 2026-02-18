@@ -1,0 +1,20 @@
+==========================================
+SLURM_CLUSTER_NAME = parampravega
+SLURM_ARRAY_JOB_ID = 
+SLURM_ARRAY_TASK_ID = 
+SLURM_ARRAY_TASK_COUNT = 
+SLURM_ARRAY_TASK_MAX = 
+SLURM_ARRAY_TASK_MIN = 
+SLURM_JOB_ACCOUNT = iisc
+SLURM_JOB_ID = 220302
+SLURM_JOB_NAME = threeminds_atmpt_1
+SLURM_JOB_NODELIST = gpu015
+SLURM_JOB_USER = ext28
+SLURM_JOB_UID = 36132
+SLURM_JOB_PARTITION = gpusinglenode
+SLURM_TASK_PID = 9988
+SLURM_SUBMIT_DIR = /scratch/three-minds/workstation/lab/LatestBrain-TV/slurm_job
+SLURM_CPUS_ON_NODE = 1
+SLURM_NTASKS = 1
+SLURM_TASK_PID = 9988
+==========================================
